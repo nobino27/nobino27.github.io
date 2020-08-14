@@ -1,35 +1,64 @@
 <html>
 
 <head>
-    <title>Today We Eat</title>
+    <title>Salad</title>
     <link rel="stylesheet" href="index.css">
-    <!-- <script src="index.js"></script> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
+        </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container"
-        style="background-image: url('resource/background.png'); background-size: cover; height: 100%; position: relative;">
-        <div id="header">
-            <span>Home</span>
-            <span>Work out</span>
-            <span>Meal</span>
-            <span>Log in</span>
-            <input type="search" placeholder="Search..">
+    <div style="background-color: rgba(0,0,0,1); width: 100%; height: 100%;">
+        <div id="container-smoothies">
+            <div id="header">
+                <a href="../../index.html">home</a>
+                <a>work out</a>
+                <span id="dropdown">
+                    <a href="../meal.html" style="color: #667a28;">meal</a>
+                    <div id="dropdown-content">
+                        <div onclick="window.location.href = '../salad/salad.html'">salad</div>
+                        <div onclick="window.location.href = '../main dishes/dishes.html'">main dishes</div>
+                        <div onclick="window.location.href = 'smoothies.html'">smoothies</div>
+                    </div>
+                </span>
+                <a>sign in</a>
+                <input type="search">
+            </div>
+
+            <pre id="description">
+                1 frozen banana
+                1 kiwifruit OR 1/2 green apple or 1/2 kiwi + 1/4 green 
+                apple
+                1/2 c spinach/silverbeet/kale
+                1 tbsp chia seeds
+                2 tbsp avocado
+                1/3 c water
+                1/8 tsp spirulina optional
+
+                Blend all ingredients in a high speed blender for 30 seconds until super 
+                smooth, scraping down the edges after 20 seconds as needed.
+                Top as you please and enjoy! I used some extra fruit and chia seeds, along 
+                with mint for flavour but you could also sprinkle on your favourite granola 
+                or cereal for a super-filling breakfast - I personally love these ones here 
+                and here for smoothie bowls!</pre>
+            <div id="icon">
+                <i class="fa fa-facebook" onclick="window.location.href = 'http://facebook.com'"></i>
+                <i class="fa fa-instagram" onclick="window.location.href = 'http://instagram.com'"></i>
+                <i class="fa fa-whatsapp" onclick="window.location.href = 'http://web.whatsapp.com'"></i>
+            </div>
         </div>
-        <div id="icon">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-whatsapp"></i>
+        <div id="container-gif">
         </div>
+        <div id="logo"></div>
+
     </div>
+
 
 </body>
 
