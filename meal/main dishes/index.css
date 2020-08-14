@@ -6,13 +6,13 @@
 #container-dishes-1 {
     position: relative;
     z-index: 0;
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
 }
 
 #container-dishes-1 #container-salad {
-    background-image: url('asset/std8-08.png');
+    background-image: url('asset/std8-noicon.png');
     background-size: cover;
     resize: vertical;
     height: 100%;
@@ -46,32 +46,67 @@
 
 #container-dishes-1 #header {
     position: absolute;
+    display: flex;
+    justify-content: flex-end;
     z-index: 4;
     right: 0;
     top: 0;
     height: auto;
-    width: auto;
-    padding-right: 20px;
-    padding-top: 15px;
+    width: 100%;
+    padding-right: 50px;
+    padding-top: 50px;
 }
+
+#container-dishes-1 #header #dropdown {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+  }
+  
+  #container-dishes-1 #dropdown:hover #dropdown-content {
+    display: block;
+  }
+  
+  #container-dishes-1 #dropdown-content {
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* padding: 12px 16px; */
+    z-index: 1;
+  }
+  
+  #container-dishes-1 #dropdown-content div {
+    font-size: 22px;
+    width: 100%;
+    padding-left: 10px;
+  }
+  
+  #container-dishes-1 #dropdown-content div:hover {
+    color: yellowgreen;
+    cursor: pointer;
+  }
 
 #container-dishes-1 #logo {
     position: absolute;
     z-index: 3;
-    left: 40;
-    top: 5;
+    left: 60px;
+    top: 40px;
     background-image: url('asset/logotrang-01.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 100px;
+    width: 230px;
+    height: 130px;
 }
 
 #container-dishes-1 #formula1 {
     position: absolute;
     right: 320px;
     width: auto;
-    bottom: -10px;
     z-index: 5;
     text-align: right;
 }
@@ -85,11 +120,11 @@
 }
 
 #container-dishes-1 #header a {
-    margin-right: 30px;
+    margin-right: 40px;
     color: white;
     text-decoration: none;
     font-family: UTM;
-    font-size: 35px;
+    font-size: 44px;
 }
 
 ::placeholder {
@@ -98,11 +133,14 @@
 }
 
 #container-dishes-1 #header input {
-    width: 260px;
-    padding: 6px;
-    padding-left: 12px;
+    width: 280px;
+    height: 40px;
+    margin: 10px;
+    padding: 4px;
+    padding-left: 6px;
     border: 2px solid white;
     margin-right: 16px;
+    margin-top: 18px;
     font-size: 17px;
     border-radius: 20px;
     color: white;
@@ -119,16 +157,17 @@
     box-shadow: 0 0 0 2px green;
 }
 
-#container-dishes-1 #container-salad #icon {
+#container-dishes-1 #icon {
     margin-left: 50;
     margin-bottom: 50px;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 300px;
+    z-index: 3;
 }
 
-#container-dishes-1 #container-salad #icon i {
+#container-dishes-1 #icon i {
     font-size: 30px;
     color: white;
     margin: 10px;

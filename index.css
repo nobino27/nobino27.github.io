@@ -125,7 +125,7 @@ input[type="search"]:focus {
 }
 
 #container {
-  background-image: url("home/asset/std1-01.png");
+  background-image: url("home/asset/std1-noicon.png");
   background-size: cover;
   height: 100%;
   position: relative;
@@ -148,13 +148,6 @@ input[type="search"]:focus {
     margin: 3px;
     margin-right: 20px;
     color: grey;
-  }
-
-  #container {
-    background-image: url("home/asset/std1-01.png");
-    background-size: cover;
-    height: 100%;
-    position: relative;
   }
 
   #header input {
@@ -198,13 +191,6 @@ input[type="search"]:focus {
     color: grey;
   }
 
-  #container {
-    background-image: url("home/asset/std1-01.png");
-    background-size: unset;
-    height: 100%;
-    position: relative;
-  }
-
   #header input {
     width: 190px;
     padding: 3px;
@@ -243,13 +229,6 @@ input[type="search"]:focus {
     margin-top: 8px;
     margin-right: 20px;
     color: white;
-  }
-
-  #container {
-    background-image: url("home/asset/std1-01.png");
-    background-size: 100% 100%;
-    height: 100%;
-    position: relative;
   }
 
   #header input {
@@ -307,13 +286,6 @@ input[type="search"]:focus {
     margin-top: 8px;
     margin-right: 20px;
     color: grey;
-  }
-
-  #container {
-    background-image: url("home/asset/std1-01.png");
-    background-size: unset;
-    height: 100%;
-    position: relative;
   }
 
   #header input {
