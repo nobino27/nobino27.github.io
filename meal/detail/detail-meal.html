@@ -15,16 +15,16 @@
 </head>
 
 <body>
-    <div id="container-meal">
+    <div id="container-detail-meal">
         <div id="header">
-            <a href="../index.html">home</a>
+            <a href="../../index.html">home</a>
             <a>work out</a>
             <span id="dropdown">
-                <a href="meal.html" style="color: #667a28;">meal</a>
+                <a href="../meal.html" style="color: #667a28;">meal</a>
                 <div id="dropdown-content">
-                    <div onclick="window.location.href = './salad/salad.html'">salad</div>
-                    <div onclick="window.location.href = './main dishes/dishes.html'">main dishes</div>
-                    <div>smoothies</div>
+                    <div onclick="window.location.href = '../salad/salad.html'">salad</div>
+                    <div onclick="window.location.href = '../main dishes/dishes.html'">main dishes</div>
+                    <div onclick="window.location.href = '../smoothies/smoothies.html'">smoothies</div>
                 </div>
             </span>
             <a>sign in</a>
@@ -32,15 +32,29 @@
         </div>
         <div id="logo"></div>
         <div id="quote">
-            <div id="quote1">
-                your menu today is
+            <div class="row">
+                <div class="col-sm">
+                    <pre class="des">
+<span>banana smoothies</span>
+    Place all ingredients in a blender. Blend until 
+smooth, adding more milk if needed to reach 
+    desired consistency.</pre>
+                </div>
+                <div class="col-sm">
+                    <pre>
+<span>salad</span>
+ Cutting your vegetables into compa
+ -rable sizes. Mix them together 
+ and don’t forget to add dressing.</pre>
+                </div>
+                <div class="col-sm">
+                    <pre>
+<span>boiled vegetable</span>
+Wash the vegetables, cut up the vegetables into 
+chunks. bring the water to boil before adding the 
+vegetables. Cook the vegetables until they're done.</pre>
+                </div>
             </div>
-            <pre id="quote2">
-                Morning:
-                salad
-                smoothies
-            <div id="rm" onclick="window.location.href = 'detail/detail-meal.html';">read more</div>
-            </pre>
         </div>
         <div id="icon">
             <i class="fa fa-facebook"></i>

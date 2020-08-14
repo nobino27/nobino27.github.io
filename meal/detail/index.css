@@ -9,19 +9,19 @@
 }
 
 /* #container-home-meal {
-  position: relative;
-  z-index: 0;
-  width: 80%;
-  height: 100%;
-  margin: 0 auto;
-} */
-#container-meal {
-  background-image: url("asset/std2-noicon.png") ;
+    position: relative;
+    z-index: 0;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  } */
+#container-detail-meal {
+  background-image: url("asset/std4-noicon.png");
   background-size: 100% 100%;
   height: 100%;
   position: relative;
 }
-#container-meal #header {
+#container-detail-meal #header {
   display: flex;
   height: auto;
   width: 100%;
@@ -30,24 +30,24 @@
   padding-right: 50px;
 }
 
-#container-meal #header a {
+#container-detail-meal #header a {
   font-family: UTM;
   font-size: 44px;
   margin-right: 40px;
   color: #91aa43;
 }
 
-#container-meal #header #dropdown {
+#container-detail-meal #header #dropdown {
   position: relative;
   display: inline-block;
   justify-content: center;
 }
 
-#container-meal #dropdown:hover #dropdown-content {
+#container-detail-meal #dropdown:hover #dropdown-content {
   display: block;
 }
 
-#container-meal #dropdown-content {
+#container-detail-meal #dropdown-content {
   display: none;
   border-radius: 10px;
   position: absolute;
@@ -60,13 +60,13 @@
   z-index: 1;
 }
 
-#container-meal #dropdown-content div {
+#container-detail-meal #dropdown-content div {
   font-size: 22px;
   width: 100%;
   padding-left: 10px;
 }
 
-#container-meal #dropdown-content div:hover {
+#container-detail-meal #dropdown-content div:hover {
   color: yellowgreen;
   cursor: pointer;
 }
@@ -76,7 +76,7 @@
   opacity: 0.8;
 }
 
-#container-meal #header input {
+#container-detail-meal #header input {
   width: 280px;
   height: 40px;
   margin: 10px;
@@ -91,7 +91,7 @@
   background-color: transparent;
 }
 
-#container-meal input[type="search"]:focus {
+#container-detail-meal input[type="search"]:focus {
   border: 0px solid white;
   outline: none;
   /* Remove default outline and use border or box-shadow */
@@ -99,7 +99,7 @@
   /* Full freedom. (works also with border-radius) */
 }
 
-#container-meal #icon {
+#container-detail-meal #icon {
   margin-left: 50;
   margin-bottom: 50px;
   position: absolute;
@@ -108,38 +108,42 @@
   width: 300px;
 }
 
-#container-meal #icon i {
+#container-detail-meal #icon i {
   font-size: 30px;
   color: white;
   margin: 10px;
 }
 
-#container-meal a,
+#container-detail-meal a,
 u {
   text-decoration: none;
 }
 
-#container-meal #quote {
+#container-detail-meal #quote {
+  text-align: center;
   height: auto;
+  width: 100%;
   position: absolute;
-  bottom: 20px;
-  left: 150px;
+  bottom: 120px;
 }
-
-#container-meal #quote1 {
-  font-size: 120px;
-  font-family: Halo;
-  word-spacing: 0.2em;
-}
-
-#container-meal #quote2 {
-  font-size: 35px;
+#container-detail-meal pre {
   font-family: UTM;
+  word-spacing: 2px;
+  font-size: 20px;
+  color: white;
+}
+#container-detail-meal .des {
   color: #91aa43;
-  padding-left: 200px;
 }
 
-#container-meal #rm {
+#container-detail-meal #quote span {
+  color: #667a28;
+  font-size: 35px;
+  margin: 5px;
+  font-family: UTM;
+}
+
+#container-detail-meal #rm {
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 3px;
@@ -151,13 +155,11 @@ u {
   margin-left: 110px;
 }
 
-#container-meal #rm:hover {
+#container-detail-meal #rm:hover {
   cursor: pointer;
 }
 
-
-
-#container-meal #logo {
+#container-detail-meal #logo {
   background-image: url("asset/logotranhchonenxanh-01.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -169,15 +171,14 @@ u {
 }
 
 @media (max-width: 1366px) {
-
-  #container-meal #header a {
+  #container-detail-meal #header a {
     font-size: 30px;
     margin: 3px;
     margin-right: 20px;
     color: grey;
   }
 
-  #container-meal #header input {
+  #container-detail-meal #header input {
     width: 190px;
     margin: 6px;
     padding: 3px;
@@ -189,7 +190,7 @@ u {
     background-color: transparent;
   }
 
-  #container-meal #quote {
+  #container-detail-meal #quote {
     position: absolute;
     bottom: 0px;
     left: -60px;
@@ -197,7 +198,7 @@ u {
 }
 
 @media (max-width: 1024px) and (max-height: 1366px) {
-  #container-meal #header {
+  #container-detail-meal #header {
     display: flex;
     height: auto;
     width: 100%;
@@ -208,14 +209,14 @@ u {
     padding-right: 20px;
   }
 
-  #container-meal #header a {
+  #container-detail-meal #header a {
     font-size: 38px;
     margin: 5px;
     margin-right: 20px;
     color: grey;
   }
 
-  #container-meal #header input {
+  #container-detail-meal #header input {
     width: 190px;
     padding: 3px;
     border-color: grey;
@@ -225,7 +226,7 @@ u {
     background-color: transparent;
   }
 
-  #container-meal #quote {
+  #container-detail-meal #quote {
     position: absolute;
     bottom: 0px;
     left: -60px;
@@ -233,7 +234,7 @@ u {
 }
 
 @media (max-width: 1024px) and (max-height: 768px) {
-  #container-meal #header {
+  #container-detail-meal #header {
     display: flex;
     height: auto;
     width: 100%;
@@ -244,7 +245,7 @@ u {
     padding-right: 20px;
   }
 
-  #container-meal #header a {
+  #container-detail-meal #header a {
     font-size: 20px;
     margin: 5px;
     margin-top: 8px;
@@ -252,7 +253,7 @@ u {
     color: white;
   }
 
-  #container-meal #header input {
+  #container-detail-meal #header input {
     width: 130px;
     padding: 3px;
     border-color: white;
@@ -262,7 +263,7 @@ u {
     background-color: transparent;
   }
 
-  #container-meal #quote {
+  #container-detail-meal #quote {
     position: absolute;
     bottom: 0px;
     left: -60px;
@@ -270,14 +271,14 @@ u {
 }
 
 @media (max-width: 950px) {
-  #container-meal #header a {
+  #container-detail-meal #header a {
     font-size: 18px;
     margin: 8px;
     margin-top: 14px;
     margin-right: 22px;
   }
 
-  #container-meal #header input {
+  #container-detail-meal #header input {
     width: 160px;
     margin: 6px;
     padding: 2px;
@@ -292,7 +293,7 @@ u {
 }
 
 @media (max-width: 770px) {
-  #container-meal #header a {
+  #container-detail-meal #header a {
     font-size: 25px;
     margin: 5px;
     margin-top: 8px;
@@ -300,7 +301,7 @@ u {
     color: grey;
   }
 
-  #container-meal #header input {
+  #container-detail-meal #header input {
     width: 130px;
     margin: 6px;
     padding: 3px;
@@ -312,7 +313,7 @@ u {
     background-color: transparent;
   }
 
-  #container-meal #quote {
+  #container-detail-meal #quote {
     position: absolute;
     bottom: 0px;
     left: -60px;
@@ -320,14 +321,14 @@ u {
 }
 
 /* 
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-} */
+  @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  } */
