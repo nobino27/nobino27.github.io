@@ -82,15 +82,15 @@
   height: auto;
   width: 100%;
   justify-content: flex-end;
-  padding-top: 50px;
-  padding-right: 50px;
+  padding-top: 6vh;
+  padding-right: 3vw;
 }
 
 #logo {
   position: absolute;
   z-index: 2;
-  left: 60px;
-  top: 40px;
+  top: 4vh;
+  left: 3vw;
   background-image: url("asset/logotrangchonenxanhnhat-01.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -99,17 +99,17 @@
 }
 
 #container-salad #formula1 {
-  font-size: 22px;
+  font-size: 1.5vw;
   position: absolute;
-  right: 440px;
-  top: 200px;
+  right: 25vw;
+  top: 20vh;
 }
 
 #container-salad #formula2 {
-  font-size: 22px;
+  font-size: 1.5vw;
   position: absolute;
-  right: 130px;
-  top: 200px;
+  right: 5vw;
+  top: 20vh;
 }
 
 #container-salad #header a {
@@ -141,10 +141,10 @@
 }
 
 #container-salad #description {
-  font-size: 18px;
+  font-size: 1vw;
   position: absolute;
-  right: 40px;
-  bottom: 10px;
+  right: 1vw;
+  bottom: 1vh;
 }
 
 #container-salad input[type="search"]:focus {
@@ -154,11 +154,9 @@
 }
 
 #container-salad #icon {
-  margin-left: 50;
-  margin-bottom: 50px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 2vh;
+  left: 2vw;
   width: 300px;
   z-index: 3;
 

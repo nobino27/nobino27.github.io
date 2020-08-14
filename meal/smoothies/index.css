@@ -2,6 +2,7 @@
   font-family: UTM;
   src: url(asset/UTMLibelKT.ttf);
 }
+
 #container-home-salad {
   position: relative;
   z-index: 0;
@@ -9,6 +10,7 @@
   height: 100%;
   margin: 0 auto;
 }
+
 #container-smoothies {
   background-image: url("asset/std9-noicon.png");
   background-size: 100% 100%;
@@ -83,15 +85,15 @@
   height: auto;
   width: 100%;
   justify-content: flex-end;
-  padding-top: 50px;
-  padding-right: 50px;
+  padding-top: 6vh;
+  padding-right: 3vw;
 }
 
 #logo {
   position: absolute;
   z-index: 2;
-  left: 60px;
-  top: 40px;
+  top: 4vh;
+  left: 3vw;
   background-image: url("asset/logotrangchonenxanhnhat-01.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -129,10 +131,10 @@
 #container-smoothies #description {
   font-weight: 550;
   color: #86aa3f;
-  font-size: 18px;
-  word-spacing: 5px;
+  font-size: 1vw;
+  word-spacing: 0.5vw;
   position: absolute;
-  right: 40px;
+  right: 2vw;
   text-align: right;
 }
 
@@ -143,11 +145,9 @@
 }
 
 #container-smoothies #icon {
-  margin-left: 50;
-  margin-bottom: 50px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 2vh;
+  left: 2vw;
   width: 300px;
   z-index: 3;
 }
@@ -159,7 +159,7 @@
 }
 
 i:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @media (max-width: 950px) {

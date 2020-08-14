@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Today We Eat</title>
+    <title>Work out</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <!-- <script src="index.js"></script> -->
     <meta charset="utf-8">
@@ -16,11 +16,11 @@
 
 <body>
     <div>
-        <div id="container">
+        <div id="container-workout">
             <div id="header">
-                <a href="#">home</a>
+                <a href="../index.html">home</a>
                 <span id="dropdown-workout">
-                    <a href="workout/workout.html">work out</a>
+                    <a style="color: #ff5c61;" href="#">work out</a>
                     <div id="dropdown-content">
                         <div onclick="window.location.href = '#'">full boy</div>
                         <div onclick="window.location.href = '#'">abs</div>
@@ -29,21 +29,29 @@
                         <div onclick="window.location.href = '#'">arms</div>
                     </div>
                 </span>
+
                 <span id="dropdown">
-                    <a href="meal/meal.html">meal</a>
+                    <a href="../meal/meal.html">meal</a>
                     <div id="dropdown-content">
-                        <div onclick="window.location.href = 'meal/salad/salad.html'">salad</div>
-                        <div onclick="window.location.href = 'meal/main dishes/dishes.html'">main dishes</div>
-                        <div onclick="window.location.href = 'meal/smoothies/smoothies.html'">smoothies</div>
+                        <div onclick="window.location.href = '../meal/salad/salad.html'">salad</div>
+                        <div onclick="window.location.href = '../meal/main dishes/dishes.html'">main dishes</div>
+                        <div onclick="window.location.href = '../meal/smoothies/smoothies.html'">smoothies</div>
                     </div>
                 </span>
                 <a>sign in</a>
                 <input type="search">
             </div>
             <div id="logo"></div>
-            <pre id="quote">
-hello xx!
-how do you feel today?</pre>
+            <div id="quote">
+                <div id="quote1">
+                    your workout today is
+                </div>
+                <pre id="quote2">
+5 mins warm up:
+10 mins work out full body
+                <div id="rm" onclick="window.location.href = '#';">read more</div>
+                </pre>
+            </div>
             <div id="icon">
                 <i class="fa fa-facebook"></i>
                 <i class="fa fa-instagram"></i>
