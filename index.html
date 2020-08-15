@@ -3,6 +3,8 @@
 <head>
     <title>Today We Eat</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="workout/index.css">
+    <link rel="stylesheet" type="text/css" href="meal/index.css">
     <!-- <script src="index.js"></script> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,9 +22,9 @@
             <div id="header">
                 <a href="#">home</a>
                 <span id="dropdown-workout">
-                    <a href="workout/workout.html">work out</a>
+                    <a>work out</a>
                     <div id="dropdown-content">
-                        <div onclick="window.location.href = '#'">full boy</div>
+                        <div onclick="window.location.href = '#'">full body</div>
                         <div onclick="window.location.href = '#'">abs</div>
                         <div onclick="window.location.href = '#'">butt</div>
                         <div onclick="window.location.href = '#'">legs</div>
@@ -30,14 +32,14 @@
                     </div>
                 </span>
                 <span id="dropdown">
-                    <a href="meal/meal.html">meal</a>
+                    <a>meal</a>
                     <div id="dropdown-content">
                         <div onclick="window.location.href = 'meal/salad/salad.html'">salad</div>
                         <div onclick="window.location.href = 'meal/main dishes/dishes.html'">main dishes</div>
                         <div onclick="window.location.href = 'meal/smoothies/smoothies.html'">smoothies</div>
                     </div>
                 </span>
-                <a>sign in</a>
+                <a href="authorization/signup/signup.html">sign in</a>
                 <input type="search">
             </div>
             <div id="logo"></div>
@@ -50,7 +52,75 @@ how do you feel today?</pre>
                 <i class="fa fa-whatsapp"></i>
             </div>
         </div>
+        <div id="container-workout">
+
+            <div id="logo"></div>
+            <div id="quote">
+                <div id="quote1">
+                    your workout today is
+                </div>
+                <pre id="quote2">
+5 mins warm up:
+10 mins work out full body
+                <div id="rm" onclick="window.location.href = '#';">read more</div>
+                </pre>
+            </div>
+            <div id="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+        </div>
+        <div id="container-meal">
+            <div id="logo"></div>
+            <div id="quote">
+                <div id="quote1">
+                    your menu today is
+                </div>
+                <pre id="quote2">
+                    Morning:
+                    salad
+                    smoothies
+                <div id="rm" onclick="window.location.href = 'meal/detail/detail-meal.html';">read more</div>
+                </pre>
+            </div>
+            <div id="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+        </div>
+        <div id="navbar">
+            <a href="#home">home</a>
+            <a href="#news">work out</a>
+            <a href="#contact">meal</a>
+            <a href="#contact">sign in</a>
+        </div>
     </div>
+    <script>
+        function toggleOff() {
+            document.getElementById("dropdown-content-1").style.display = "none";
+            document.getElementById("dropdown-content-2").style.display = "none";
+        }
+
+        function toggleDropdown(id) {
+            var status = document.getElementById(id).style.display
+            if (status == "none") {
+                if (id != "dropdown-content-1") document.getElementById("dropdown-content-1").style.display = "none";
+                if (id != "dropdown-content-2") document.getElementById("dropdown-content-2").style.display = "none";
+                document.getElementById(id).style.display = "block";
+            } else {
+                document.getElementById(id).style.display = "none";
+            }
+        }
+        window.onscroll = function () {
+            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+        };
+    </script>
 </body>
 
 </html>
