@@ -57,6 +57,34 @@
     padding-right: 3vw;
 }
 
+#container-dishes-1 #header #dropdown-workout {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+}
+
+#container-dishes-1 #dropdown-workout #dropdown-content {
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* padding: 12px 16px; */
+    z-index: 1;
+}
+
+#container-dishes-1 #dropdown-workout:hover #dropdown-content {
+    display: block;
+}
+
+#container-dishes-1 #dropdown-workout #dropdown-content div:hover {
+    color: #ff9799;
+    cursor: pointer;
+}
+
 #container-dishes-1 #header #dropdown {
     position: relative;
     display: inline-block;
@@ -105,11 +133,12 @@
 
 #container-dishes-1 #formula1 {
     position: absolute;
-    right: 20vw;
+    right: 26vw;
     bottom: 1vh;
     width: auto;
     z-index: 5;
     text-align: right;
+    font-size: 1.5vw;
 }
 
 #container-dishes-1 #formula2 {
@@ -118,6 +147,7 @@
     bottom: 1vh;
     z-index: 5;
     width: auto;
+    font-size: 1.5vw;
 }
 
 #container-dishes-1 #header a {

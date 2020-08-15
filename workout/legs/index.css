@@ -1,0 +1,397 @@
+@font-face {
+    font-family: UTM;
+    src: url(asset/UTMLibelKT.ttf);
+}
+
+@font-face {
+    font-family: Brush;
+    src: url(asset/brush-up.ttf);
+}
+
+#container-legs #header #dropdown {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+}
+
+#container-legs #dropdown:hover #dropdown-content {
+    display: block;
+}
+
+#container-legs #dropdown-content {
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* padding: 12px 16px; */
+    z-index: 1;
+}
+
+#container-legs #dropdown-content div {
+    font-size: 22px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+#container-legs #dropdown-content div:hover {
+    color: #ff9799;
+    cursor: pointer;
+}
+
+#container-legs #header #dropdown-workout {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+}
+
+#container-legs #dropdown-workout #dropdown-content {
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* padding: 12px 16px; */
+    z-index: 1;
+}
+
+#container-legs #dropdown-workout:hover #dropdown-content {
+    display: block;
+}
+
+#container-legs #dropdown-workout #dropdown-content div:hover {
+    color: #ff9799;
+    cursor: pointer;
+}
+
+#container-legs #quote {
+    text-align: center;
+    font-size: 2vh;
+    font-family: UTM;
+    color: white;
+}
+
+#container-legs #quote pre {
+    color: white;
+}
+
+#container-legs #quote #des1 {
+    text-align: left;
+    position: absolute;
+    left: 28vw;
+    bottom: 28vh;
+    font-size: 1.7vh;
+}
+
+#container-legs #quote #des2 {
+    text-align: left;
+    position: absolute;
+    right: 14vw;
+    top: 30vh;
+    font-size: 1.7vh;
+}
+
+#container-legs #quote #des3 {
+    text-align: left;
+    position: absolute;
+    right: 2vw;
+    top: 70vh;
+    font-size: 1.7vh;
+}
+
+
+#container-legs #rm {
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-left: 10%;
+    border: 1px solid white;
+}
+
+#container-legs #rm:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#container-legs #header {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: end;
+    padding-top: 6vh;
+    padding-right: 3vw;
+}
+
+#container-legs #header a {
+    font-family: UTM;
+    font-size: 44px;
+    margin-right: 40px;
+    color: white;
+}
+
+::placeholder {
+    color: grey;
+    opacity: 0.8;
+}
+
+#container-legs #header input {
+    width: 280px;
+    margin: 10px;
+    padding: 4px;
+    padding-left: 6px;
+    border: 2px solid white;
+    margin-top: 18px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 20px;
+    color: black;
+    background-color: transparent;
+}
+
+#container-legs input[type="search"]:focus {
+    border: 0px solid white;
+    outline: none;
+    /* Remove default outline and use border or box-shadow */
+    box-shadow: 0 0 0 2px #ff5c61;
+    /* Full freedom. (works also with border-radius) */
+}
+
+#container-legs #icon {
+    position: absolute;
+    bottom: 2vh;
+    left: 2vw;
+    width: 300px;
+}
+
+#container-legs #icon i {
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}
+
+#container-legs {
+    background-image: url("asset/std17_noicon.png");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#container-legs #logo {
+    background-image: url("asset/logotrang-01.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 230px;
+    position: absolute;
+    top: 4vh;
+    left: 3vw;
+}
+
+#container-legs #gif1 {
+    position: absolute;
+    right: 43.5vw;
+    top: 19vh;
+}
+
+#container-legs #gif2 {
+    position: absolute;
+    left: 9vw;
+    bottom: 18vh
+}
+
+#container-legs #gif3 {
+    position: absolute;
+    right: 27.5vw;
+    bottom: 5vh
+}
+
+#container-legs #title {
+    font-family: Brush;
+    position: absolute;
+    top: 30vh;
+    left: 3vw;
+    font-size: 3vw;
+}
+
+
+
+@media (max-width: 1366px) {
+    #container-legs #header a {
+        font-size: 30px;
+        margin: 3px;
+        margin-right: 20px;
+        color: grey;
+    }
+
+    #container-legs #header input {
+        width: 190px;
+        margin: 6px;
+        padding: 3px;
+        border-color: grey;
+        margin-top: 10px;
+        margin-right: 16px;
+        font-size: 14px;
+        border-radius: 20px;
+        background-color: transparent;
+    }
+
+    #container-legs #quote {
+        color: white;
+        font-family: Halo;
+        font-size: 70px;
+        position: absolute;
+        bottom: 0px;
+        left: -60px;
+    }
+}
+
+@media (max-width: 1024px) and (max-height: 1366px) {
+    #container-legs #header {
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: flex-end;
+        align-content: flex-end;
+        align-items: end;
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+
+    #container-legs #header a {
+        font-size: 38px;
+        margin: 5px;
+        margin-right: 20px;
+        color: grey;
+    }
+
+    #container-legs #header input {
+        width: 190px;
+        padding: 3px;
+        border-color: grey;
+        margin-top: 20px;
+        font-size: 14px;
+        border-radius: 20px;
+        background-color: transparent;
+    }
+
+    #container-legs #quote {
+        color: white;
+        font-family: Halo;
+        font-size: 70px;
+        position: absolute;
+        bottom: 0px;
+        left: -60px;
+    }
+}
+
+@media (max-width: 1024px) and (max-height: 768px) {
+    #container-legs #header {
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: flex-end;
+        align-content: flex-end;
+        align-items: end;
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+
+    #container-legs #header a {
+        font-size: 20px;
+        margin: 5px;
+        margin-top: 8px;
+        margin-right: 20px;
+        color: white;
+    }
+
+    #container-legs #header input {
+        width: 130px;
+        padding: 3px;
+        border-color: white;
+        margin-top: 10px;
+        font-size: 14px;
+        border-radius: 20px;
+        background-color: transparent;
+    }
+
+    #container-legs #quote {
+        color: white;
+        font-family: Halo;
+        font-size: 70px;
+        position: absolute;
+        bottom: 0px;
+        left: -60px;
+    }
+}
+
+@media (max-width: 950px) {
+    #container-legs #header a {
+        font-size: 18px;
+        margin: 8px;
+        margin-top: 14px;
+        margin-right: 22px;
+    }
+
+    #container-legs #header input {
+        width: 160px;
+        margin: 6px;
+        padding: 2px;
+        padding-left: 8px;
+        border-color: honeydew;
+        margin-top: 10px;
+        margin-right: 16px;
+        font-size: 15px;
+        border-radius: 20px;
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 770px) {
+    #container-legs #header a {
+        font-size: 25px;
+        margin: 5px;
+        margin-top: 8px;
+        margin-right: 20px;
+        color: grey;
+    }
+
+    #container-legs #header input {
+        width: 130px;
+        margin: 6px;
+        padding: 3px;
+        border-color: grey;
+        margin-top: 10px;
+        margin-right: 16px;
+        font-size: 14px;
+        border-radius: 20px;
+        background-color: transparent;
+    }
+
+    #container-legs #quote {
+        color: white;
+        font-family: Halo;
+        font-size: 70px;
+        position: absolute;
+        bottom: 0px;
+        left: -60px;
+    }
+}

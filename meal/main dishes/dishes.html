@@ -20,16 +20,25 @@
         </div>
         <div id="header">
             <a href="../../index.html">home</a>
-            <a>work out</a>
+            <span id="dropdown-workout">
+                <a>work out</a>
+                <div id="dropdown-content">
+                    <div onclick="window.location.href = '#'">full body</div>
+                    <div onclick="window.location.href = '#'">abs</div>
+                    <div onclick="window.location.href = '#'">butt</div>
+                    <div onclick="window.location.href = '#'">legs</div>
+                    <div onclick="window.location.href = '#'">arms</div>
+                </div>
+            </span>
             <span id="dropdown">
-                <a href="../meal.html" style="color: #667a28;">meal</a>
+                <a style="color: #667a28;">meal</a>
                 <div id="dropdown-content">
                     <div onclick="window.location.href = '../salad/salad.html'">salad</div>
                     <div onclick="window.location.href = 'dishes.html'">main dishes</div>
                     <div onclick="window.location.href = '../smoothies/smoothies.html'">smoothies</div>
                 </div>
             </span>
-            <a>sign in</a>
+            <a href="../../authorization/signup/signup.html">sign in</a>
             <input type="search">
 
         </div>

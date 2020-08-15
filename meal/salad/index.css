@@ -21,6 +21,34 @@
   top: 0;
 }
 
+#container-salad #header #dropdown-workout {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+}
+
+#container-salad #dropdown-workout #dropdown-content {
+  display: none;
+  border-radius: 10px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* padding: 12px 16px; */
+  z-index: 1;
+}
+
+#container-salad #dropdown-workout:hover #dropdown-content {
+  display: block;
+}
+
+#container-salad #dropdown-workout #dropdown-content div:hover {
+  color: #ff9799;
+  cursor: pointer;
+}
+
 #container-salad #header #dropdown {
   position: relative;
   display: inline-block;
@@ -102,14 +130,14 @@
   font-size: 1.5vw;
   position: absolute;
   right: 25vw;
-  top: 20vh;
+  top: 18vh;
 }
 
 #container-salad #formula2 {
   font-size: 1.5vw;
   position: absolute;
   right: 5vw;
-  top: 20vh;
+  top: 18vh;
 }
 
 #container-salad #header a {
@@ -141,10 +169,10 @@
 }
 
 #container-salad #description {
-  font-size: 1vw;
+  font-size: 1.3vw;
   position: absolute;
   right: 1vw;
-  bottom: 1vh;
+  bottom: 2vh;
 }
 
 #container-salad input[type="search"]:focus {
@@ -159,7 +187,6 @@
   left: 2vw;
   width: 300px;
   z-index: 3;
-
 }
 
 #container-salad #icon i {
