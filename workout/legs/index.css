@@ -72,7 +72,7 @@
 
 #container-legs #quote {
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.5vh;
     font-family: UTM;
     color: white;
 }
@@ -202,8 +202,14 @@ a {
 
 #container-legs #gif1 {
     position: absolute;
-    right: 43.5vw;
+    right: 43vw;
     top: 19vh;
+}
+
+#container-legs #gif1 img {
+    border-radius: 50%;
+    width: 35vh;
+    height: 35vh;
 }
 
 #container-legs #gif2 {
@@ -212,10 +218,22 @@ a {
     bottom: 18vh
 }
 
+#container-legs #gif2 img {
+    border-radius: 50%;
+    width: 35vh;
+    height: 35vh;
+}
+
 #container-legs #gif3 {
     position: absolute;
     right: 27.5vw;
     bottom: 5vh
+}
+
+#container-legs #gif3 img {
+    border-radius: 50%;
+    width: 35vh;
+    height: 35vh;
 }
 
 #container-legs #title {

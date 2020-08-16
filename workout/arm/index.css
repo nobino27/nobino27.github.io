@@ -201,6 +201,12 @@ a {
     left: 3vw;
 }
 
+#container-arm img {
+    border-radius: 50%;
+    width: 35vh;
+    height: 35vh;
+}
+
 #container-arm #gif1 {
     position: absolute;
     left: 11vw;

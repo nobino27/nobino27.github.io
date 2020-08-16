@@ -72,7 +72,8 @@
 
 #container-abs #quote {
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.5vh;
+    width: 95%;
 }
 
 #container-abs #quote #des1 {
@@ -86,7 +87,7 @@
 #container-abs #quote #des2 {
     text-align: left;
     position: absolute;
-    left: 76vw;
+    right: 1.5vw;
     top: 33vh;
     font-size: 1.5vh;
 }
@@ -202,6 +203,12 @@ a {
     left: 3vw;
 }
 
+#container-abs #container-gif img {
+    border-radius: 50%;
+    width: 35vh;
+    height: 35vh;
+}
+
 #container-abs #container-gif #gif1 {
     position: absolute;
     top: 22vh;
@@ -216,7 +223,7 @@ a {
 
 #container-abs #container-gif #gif3 {
     position: absolute;
-    top: 60vh;
+    top: 58vh;
     left: 30vw;
 }
 

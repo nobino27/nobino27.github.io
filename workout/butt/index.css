@@ -100,7 +100,7 @@
 #container-butt #quote #des3 {
     text-align: center;
     position: absolute;
-    right: 8vw;
+    right: 6vw;
     top: 35vh;
     font-size: 1.7vh;
 }
@@ -200,16 +200,22 @@ a {
     left: 3vw;
 }
 
+#container-butt img {
+    border-radius: 50%;
+    width: 35vh;
+    height: 35vh;
+}
+
 #container-butt #gif1 {
     position: absolute;
-    right: 40.5vw;
-    top: 24.5vh;
+    right: 39vw;
+    top: 24vh;
 }
 
 #container-butt #gif2 {
     position: absolute;
-    left: 9vw;
-    bottom: 12vh
+    left: 9.5vw;
+    bottom: 11vh
 }
 
 #container-butt #gif3 {

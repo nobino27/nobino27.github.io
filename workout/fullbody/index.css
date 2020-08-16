@@ -73,10 +73,10 @@
 #container-fullbody #quote {
     text-align: center;
     height: auto;
-    width: 100%;
+    width: 95%;
     position: absolute;
     bottom: 8vh;
-    font-size: 2vh;
+    font-size: 1.5vh;
 }
 
 #container-fullbody #quote span {
@@ -192,6 +192,29 @@ a {
     position: absolute;
     width: 100vw;
     top: 35vh
+}
+
+#container-fullbody #container-gif img {
+    border-radius: 50%;
+    width: 35vh;
+    height: 35vh;
+}
+
+#container-fullbody #container-gif #gif1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 110px;
+}
+
+#container-fullbody #container-gif #gif2 {
+    display: flex;
+    justify-content: center;
+}
+
+#container-fullbody #container-gif #gif3 {
+    display: flex;
+    justify-content: center;
+    padding-right: 150px;
 }
 
 #container-fullbody #title {
