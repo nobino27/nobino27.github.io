@@ -215,6 +215,33 @@ a {
     font-size: 3vw;
 }
 
+#container-detail-workout img {
+    border-radius: 50%;
+    width: 30vh;
+    height: 30vh
+}
+
+@media (max-width: 1366px) {
+    #container-detail-workout #gif1 {
+        position: absolute;
+        right: 18.5vw;
+        top: 27vh;
+    }
+
+    #container-detail-workout #gif2 {
+        position: absolute;
+        right: 5.5vw;
+        top: 56vh
+    }
+
+    #container-detail-workout #gif3 {
+        position: absolute;
+        right: 28.5vw;
+        top: 56vh
+    }
+}
+
+
 /* 
 
 @media (max-width: 1366px) {

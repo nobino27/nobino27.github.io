@@ -87,7 +87,7 @@
 #container-abs #quote #des2 {
     text-align: left;
     position: absolute;
-    right: 1.5vw;
+    right: 7.5vw;
     top: 33vh;
     font-size: 1.5vh;
 }
@@ -234,6 +234,57 @@ a {
     bottom: 9.5vh;
     right: 5vw;
     font-size: 3vw;
+}
+
+
+@media (max-width: 1366px) {
+    #container-abs #container-gif img {
+        border-radius: 50%;
+        width: 32vh;
+        height: 32vh;
+    }
+
+    #container-abs #container-gif #gif1 {
+        position: absolute;
+        top: 24vh;
+        left: 1vw
+    }
+
+    #container-abs #container-gif #gif2 {
+        position: absolute;
+        left: 51vw;
+        top: 24vh
+    }
+
+    #container-abs #container-gif #gif3 {
+        position: absolute;
+        top: 60vh;
+        left: 25vw;
+    }
+
+    #container-abs #quote #des1 {
+        text-align: left;
+        position: absolute;
+        left: 24vw;
+        top: 33vh;
+        font-size: 1.5vh;
+    }
+
+    #container-abs #quote #des2 {
+        text-align: left;
+        position: absolute;
+        right: 1.5vw;
+        top: 33vh;
+        font-size: 1.5vh;
+    }
+
+    #container-abs #quote #des3 {
+        text-align: left;
+        position: absolute;
+        left: 50vw;
+        top: 70vh;
+        font-size: 1.5vh;
+    }
 }
 
 /* 

@@ -236,6 +236,26 @@ a {
     text-orientation: upright;
 }
 
+@media (max-width: 1366px) {
+    #container-arm img {
+        border-radius: 50%;
+        width: 32vh;
+        height: 32vh;
+    }
+
+    #container-arm #gif1 {
+        position: absolute;
+        left: 7vw;
+        top: 21vh;
+    }
+    
+    #container-arm #gif2 {
+        position: absolute;
+        left: 7vw;
+        bottom: 6.5vh
+    }
+}
+
 /* 
 
 @media (max-width: 1366px) {
