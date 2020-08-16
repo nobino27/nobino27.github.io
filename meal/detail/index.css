@@ -179,7 +179,7 @@ u {
   top: 4vh;
   left: 3vw;
 }
-
+/* 
 @media (max-width: 1366px) {
   #container-detail-meal #header a {
     font-size: 30px;
@@ -323,7 +323,7 @@ u {
     bottom: 0px;
     left: -60px;
   }
-}
+} */
 
 /* 
   @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {

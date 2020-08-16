@@ -196,7 +196,7 @@ a {
     left: 3vw;
 }
 
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
     #container-workout #header a {
         font-size: 30px;
         margin: 3px;
@@ -362,4 +362,4 @@ a {
         bottom: 0px;
         left: -60px;
     }
-}
+} */

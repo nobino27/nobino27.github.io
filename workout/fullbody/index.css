@@ -226,7 +226,7 @@ a {
 }
 
 
-
+/* 
 @media (max-width: 1366px) {
     #container-fullbody #header a {
         font-size: 30px;
@@ -393,4 +393,4 @@ a {
         bottom: 0px;
         left: -60px;
     }
-}
+} */

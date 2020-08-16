@@ -190,7 +190,7 @@ i:hover {
   cursor: pointer;
 }
 
-@media (max-width: 950px) {
+/* @media (max-width: 950px) {
   #container-smoothies #header a {
     font-size: 18px;
     margin: 8px;
@@ -231,4 +231,4 @@ i:hover {
     border-radius: 20px;
     background-color: transparent;
   }
-}
+} */

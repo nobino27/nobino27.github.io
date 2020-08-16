@@ -223,7 +223,7 @@ u {
     left: 3vw;
     z-index: 3;
 }
-
+/* 
 @media (max-width: 1366px) {
 
     #container-signin #header a {
@@ -373,7 +373,7 @@ u {
         bottom: 0px;
         left: -60px;
     }
-}
+} */
 
 /* 
   @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
