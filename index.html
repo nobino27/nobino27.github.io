@@ -92,9 +92,25 @@ how do you feel today?</pre>
         </div>
         <div id="navbar">
             <a href="#home">home</a>
-            <a href="#news">work out</a>
-            <a href="#contact">meal</a>
-            <a href="#contact">sign in</a>
+            <span id="dropdown-workout">
+                <a>work out</a>
+                <div id="dropdown-content">
+                    <div onclick="window.location.href = 'workout/fullbody/fullbody.html'">full body</div>
+                    <div onclick="window.location.href = 'workout/abs/abs.html'">abs</div>
+                    <div onclick="window.location.href = 'workout/butt/butt.html'">butt</div>
+                    <div onclick="window.location.href = 'workout/legs/legs.html'">legs</div>
+                    <div onclick="window.location.href = 'workout/arm/arm.html'">arms</div>
+                </div>
+            </span>
+            <span id="dropdown">
+                <a>meal</a>
+                <div id="dropdown-content">
+                    <div onclick="window.location.href = 'meal/salad/salad.html'">salad</div>
+                    <div onclick="window.location.href = 'meal/main dishes/dishes.html'">main dishes</div>
+                    <div onclick="window.location.href = 'meal/smoothies/smoothies.html'">smoothies</div>
+                </div>
+            </span>
+            <a href="authorization/signup/signup.html">sign in</a>
         </div>
     </div>
     <script>
@@ -117,7 +133,7 @@ how do you feel today?</pre>
             if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
                 document.getElementById("navbar").style.top = "0";
             } else {
-                document.getElementById("navbar").style.top = "-50px";
+                document.getElementById("navbar").style.top = "-60px";
             }
         };
     </script>
